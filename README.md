@@ -21,6 +21,14 @@ npm run dev
 
 ## Backend Configuration
 
+# Admin User
+Only admin users are permitted to create and update products. Admin user accounts can only be created through the API and not via the user interface.
+
+   **Register**: `POST /api/users/register`
+    - **Description**: Create a new user.
+    - **Request Body**: `{ "username": "string", "email": "string", "password": "string", "role": "string"  }`
+     
+
 Make sure to configure the following environment variables in your `.env` file for the backend:
 
 ```env
