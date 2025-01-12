@@ -1,0 +1,18 @@
+.home-container {
+  height: 100vh;
+  background-image: url("https://i.postimg.cc/Pfchb11d/bacgroundnew.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.table-container {
+  max-height: 570px;
+  overflow-y: auto;
+}
+
+.MuiTableCell-root {
+  background-color: rgba(255, 255, 255, 0.8);
+}

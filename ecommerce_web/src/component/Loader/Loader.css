@@ -1,0 +1,11 @@
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100v;
+}
+.circular {
+  color: #f50057 !important;
+  width: 80px;
+  height: 80px;
+}
